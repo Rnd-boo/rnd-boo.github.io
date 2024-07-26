@@ -1,0 +1,160 @@
+:root {
+  --background-color: #fff6e0;
+  --main-color: #272829;
+  --sec-color: #61677a;
+  --third-color: #d8d9da;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: var(--main-color);
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  position: fixed;
+}
+
+#poto {
+  margin-left: 25px;
+}
+nav {
+  width: 50%;
+  max-width: 920px;
+  height: 90px;
+  margin: auto;
+
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav ul li {
+  color: #ffffff;
+  padding: 0.1rem;
+  display: block;
+  margin: auto;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 550;
+}
+
+nav ul li:hover {
+  color: var(--third-color);
+  cursor: pointer;
+  border-radius: 10px;
+  transform: scale(1.03);
+}
+
+.hero {
+  width: 100%;
+  height: 40em;
+  background-color: black;
+  color: white;
+  z-index: -1;
+  background-image: url("https://cdn1-production-images-kly.akamaized.net/7QXr7x_xPga2Xsf84TV-uL-vvDI=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3444280/original/039918200_1619764733-sun-1506019_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  background-attachment: fixed;
+}
+.hero img {
+  position: absolute;
+  top: 90px;
+  height: 40em;
+  left: 490px;
+  width: 90%;
+  z-index: -1;
+}
+
+.hero h1 {
+  padding: 13rem 0 0 5rem;
+  font-size: 100px;
+}
+.hero p {
+  padding: 0 0 0 5rem;
+}
+
+.def {
+  margin: 65px 310px 10px 285px;
+}
+
+.def h1 {
+  font-size: 55px;
+}
+
+.def p {
+  padding: 6px;
+  margin-right: 120px;
+}
+
+ol li {
+  padding: 15px 0 0 8px;
+  margin-right: 120px;
+  margin-left: 30px;
+}
+
+/* Footer */
+footer{
+  background-color: var(--main-color);
+  text-align: center;
+  padding: 1rem 0 2rem;
+  margin-top: 3rem;
+}
+
+footer .me{
+  padding: 1rem 0;
+}
+
+footer .me a{
+  color: white;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+footer .me a:hover,
+footer .link a:hover{
+  color: var(--sec-color);
+}
+
+footer .link {
+  margin-bottom: 1.4rem;
+}
+footer .link a{
+  padding: 0.7rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+footer .credit{
+  font-size: 0.8rem;
+  color: white;
+}
+
+footer .credit a{
+  color: var(--background-color);
+  font-weight: 700;
+  text-decoration: none;
+}
